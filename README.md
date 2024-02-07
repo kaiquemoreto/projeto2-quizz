@@ -8,6 +8,10 @@
 
 <br>
 
+<p align="center">
+  <img alt="projeto Quiz" src=".github/Preview.jpg" width="100%">
+</p>
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
