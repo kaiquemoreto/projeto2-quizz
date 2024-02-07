@@ -9,7 +9,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto Quiz" src=".github/Preview.jpg" width="100%">
+  <img alt="projeto Quiz" src=".github/Preview.JPG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
