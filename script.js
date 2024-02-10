@@ -100,12 +100,15 @@ for (const item of perguntas) {
     const quizItem = template.content.cloneNode(true)
     quizItem.querySelector('h3').textContent = item.pergunta
 
-    for(let Resposta of item.respostas) {
+    for(let resposta of item.respostas) {
       const dt = quizItem.querySelector('dl dt').cloneNode(true)
-      dt.querySelector('span').textContent = Resposta
+      dt.querySelector('span').textContent = resposta
+      dt.querySelector('input').setAttribute('name', 'pergunta-' + perguntas.indexOf(item))
 
       quizItem.querySelector('dl').appendChild(dt)
     }
     
-    quiz.appendChild(quizItem)
+    quizItem.querySelector ('dl dt').remove()
+
+    quiz.appendChild(quizItem) //coloca a pergunta na tela
 }
