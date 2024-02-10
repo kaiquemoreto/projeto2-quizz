@@ -8,24 +8,26 @@
     <script type="text/javascript" src="./script.js" defer=""></script> <!--faz o javascript rodar na pagina-->
 </head>
 <body>
-<h1>Teste seus conhecimentos</h1>
-    <div id="quiz"></div>
-    <template> 
-        <div class="quiz-item">
-            <h3>Pergunta 1</h3>
-            <dl>    
-                <dt>
-                    <input type="radio" name="item" value="0">
-                    <span>
-                        Resposta 1
-                    </span>
-                </dt>   
-            </dl>
+    <main>
+        <h1>Teste seus conhecimentos</h1>
+        <div id="quiz"></div>
+        <template> 
+            <div class="quiz-item">
+                <h3>Pergunta 1</h3>
+                <dl>    
+                    <dt>
+                        <input type="radio" name="item" value="0">
+                        <span>
+                            Resposta 1
+                        </span>
+                    </dt>   
+                </dl>
+            </div>
+        </template>
+        <div id="acertos">
+            <strong>Acertos:</strong>
+            <span>0 de 10</span>
         </div>
-    </template>
-    <div id="acertos">
-        <strong>Acertos:</strong>
-        <span>0 de 10</span>
-    </div>
+    </main>
 </body>
 </html>
