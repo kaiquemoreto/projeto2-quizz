@@ -1,4 +1,20 @@
-// const perguntas = [ { pergunta: "Pergunta 01" respotas: [ "Resposta A", "Resposta B", "Resposta C" ], correta: 2 }, ]
+/*
+modelo const perguntas para o ChatGPT:
+
+Crie 10 perguntas sobre  o tópico Fundamentos do JavaScript com 3 opções de resposta e 1 correta, para compor um aplicativo em JavaScript. Responda em essa estrutura de dados do exemplo abaixo:
+
+const perguntas = [
+    {
+        pergunta: "Pergunta 01"
+        respotas: [
+            "Resposta A",
+            "Resposta B",
+            "Resposta C"
+        ],
+        correta: 2
+    },
+] 
+*/
 const perguntas = [
     {
         pergunta: "Qual é a função principal do JavaScript?",
